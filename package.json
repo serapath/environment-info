@@ -1,0 +1,25 @@
+{
+  "name": "environment-info",
+  "version": "0.0.0",
+  "description": "environment info",
+  "main": "src/environment-info.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --ssl --live --open --dir .",
+    "build": "browserify demo/demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/environment-info.git"
+  },
+  "keywords": [],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/environment-info/issues"
+  },
+  "homepage": "https://github.com/serapath/environment-info#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
